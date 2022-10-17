@@ -1,5 +1,5 @@
 import React from "react";
-import { useThemeContext } from "../../ToggleTheme/context/theme";
+import { useThemeContext } from "../../toggleTheme/context/theme";
 
 export const Personal = () => {
   const { theme } = useThemeContext();

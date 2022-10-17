@@ -1,5 +1,5 @@
 import React from "react";
-import { Personal } from "../../../../../pages/sidebar-personal/sidebar-personal";
+import { Personal } from "../../../../pages/sidebar-personal/sidebar-personal";
 
 const SideBar = () => {
   return (

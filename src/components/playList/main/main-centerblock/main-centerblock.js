@@ -1,7 +1,7 @@
 import React from "react";
-import { Search } from "../../../../../pages/main-search/main-search";
-import { Filter } from "../../../../../pages/main-filter/main-filter";
-import { Content } from "../../../../../pages/main-content/main-content";
+import { Search } from "../../../../pages/main-search/main-search";
+import { Filter } from "../../../../pages/main-filter/main-filter";
+import { Content } from "../../../../pages/main-content/main-content";
 
 const CenterBlock = () => {
   return (

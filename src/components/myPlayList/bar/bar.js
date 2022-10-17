@@ -1,5 +1,5 @@
 import React from "react";
-import { BarContent } from "../../../../pages/bar-content/bar-content";
+import { BarContent } from "../../../pages/bar-content/bar-content";
 
 const Bar = () => {
   return (

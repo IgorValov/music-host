@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { NavLogo } from "../../../../../pages/nav-logo/nav-logo";
-import { ThemeSwitcher } from "../../../../../ToggleTheme/theme-switcher";
+import { NavLogo } from "../../../../pages/nav-logo/nav-logo";
+import { ThemeSwitcher } from "../../../../toggleTheme/theme-switcher";
 import { useState } from "react";
-import { useThemeContext } from "../../../../../ToggleTheme/context/theme";
+import { useThemeContext } from "../../../../toggleTheme/context/theme";
 
 export const Nav = () => {
   let [hiddenState] = useState(false);

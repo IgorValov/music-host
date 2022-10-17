@@ -2,7 +2,7 @@ import React from "react";
 import { Nav } from "./nav/nav";
 import CenterBlock from "./main-centerblock/main-centerblock";
 import SideBar from "./main-sidebar/main-sidebar";
-import { useThemeContext } from "../../../../ToggleTheme/context/theme";
+import { useThemeContext } from "../../../toggleTheme/context/theme";
 
 const Main = () => {
   const { theme } = useThemeContext();
