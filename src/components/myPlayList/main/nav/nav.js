@@ -19,10 +19,10 @@ export const Nav = () => {
     }
   };
   const { theme } = useThemeContext();
-  const classs = { backgroundColor: theme.background, color: theme.color };
+  const styleTheme = { backgroundColor: theme.background, color: theme.color };
   const BurgerLineStyle = { backgroundColor: theme.color, color: theme.color };
   return (
-    <nav className="main__nav nav" style={classs}>
+    <nav className="main__nav nav" style={styleTheme}>
       <NavLogo />
       <div className="nav__burger burger" onClick={ClickBurger}>
         <span className="burger__line" style={BurgerLineStyle}></span>

@@ -5,32 +5,31 @@ import { useState } from "react";
 import { useThemeContext } from "../../../../toggleTheme/context/theme";
 
 export const Nav = () => {
-  let [hiddenState] = useState(false);
-  let menuHidden;
+  let [hiddenState] = useState(true);
+
   const ClickBurger = () => {
     hiddenState = !hiddenState;
-    menuHidden = "hidden";
     if (hiddenState === true) {
-      menuHidden = "menu__list";
-      console.log(menuHidden);
-    } else {
+      menuHidden = "nav__menu menu";
+    } else if (hiddenState === false) {
       menuHidden = "hidden";
-      console.log(menuHidden);
     }
   };
+  let menuHidden;
+
   const { theme } = useThemeContext();
-  const classs = { backgroundColor: theme.background, color: theme.color };
+  const styleTheme = { backgroundColor: theme.background, color: theme.color };
   const BurgerLineStyle = { backgroundColor: theme.color, color: theme.color };
   return (
-    <nav className="main__nav nav" style={classs}>
+    <nav className="main__nav nav" style={styleTheme}>
       <NavLogo />
       <div className="nav__burger burger" onClick={ClickBurger}>
         <span className="burger__line" style={BurgerLineStyle}></span>
         <span className="burger__line" style={BurgerLineStyle}></span>
         <span className="burger__line" style={BurgerLineStyle}></span>
       </div>
-      <div className="nav__menu menu">
-        <ul className={menuHidden}>
+      <div className={menuHidden}>
+        <ul className="menu__list">
           <li className="menu__item">
             <NavLink to="/playlist">
               <p className="nav__menu-style">Главная</p>
@@ -47,8 +46,8 @@ export const Nav = () => {
             </NavLink>
           </li>
         </ul>
-        <ThemeSwitcher />
       </div>
+      <ThemeSwitcher />
     </nav>
   );
 };

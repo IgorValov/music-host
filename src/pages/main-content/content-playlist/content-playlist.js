@@ -3,7 +3,7 @@ import { useThemeContext } from "../../../toggleTheme/context/theme";
 
 const PlayList = () => {
   const { theme } = useThemeContext();
-  const classs = { backgroundColor: theme.background, color: theme.color };
+  const styleTheme = { backgroundColor: theme.background, color: theme.color };
 
   return (
     <div className="content__playlist playlist">
@@ -16,13 +16,17 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Guilt <span className="track__title-span text__color"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Nero
             </a>
           </div>
@@ -49,13 +53,17 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Elektro <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Dynoro, Outwork, Mr. Gee
             </a>
           </div>
@@ -82,14 +90,18 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 I’m Fire
                 <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Ali Bakgor
             </a>
           </div>
@@ -116,14 +128,18 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Non Stop
                 <span className="track__title-span">(Remix)</span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Стоункат, Psychopath
             </a>
           </div>
@@ -150,13 +166,17 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Run Run <span className="track__title-span">(feat. AR/CO)</span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Jaded, Will Clarke, AR/CO
             </a>
           </div>
@@ -183,14 +203,18 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Eyes on Fire
                 <span className="track__title-span">(Zeds Dead Remix)</span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Blue Foundation, Zeds Dead
             </a>
           </div>
@@ -217,14 +241,18 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Mucho Bien
                 <span className="track__title-span">(Hi Profile Remix)</span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               HYBIT, Mr. Black, Offer Nissim, Hi Profile
             </a>
           </div>
@@ -251,13 +279,17 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Knives n Cherries <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               minthaze
             </a>
           </div>
@@ -284,14 +316,18 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 How Deep Is Your Love{" "}
                 <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Calvin Harris, Disciples
             </a>
           </div>
@@ -318,13 +354,17 @@ const PlayList = () => {
               </svg>
             </div>
             <div className="track__title-text">
-              <a className="track__title-link" href="http://" style={classs}>
+              <a
+                className="track__title-link"
+                href="http://"
+                style={styleTheme}
+              >
                 Morena <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={classs}>
+            <a className="track__author-link" href="http://" style={styleTheme}>
               Tom Boxer
             </a>
           </div>
