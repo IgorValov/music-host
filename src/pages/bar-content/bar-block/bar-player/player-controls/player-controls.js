@@ -5,7 +5,7 @@ export const Controls = () => {
   const audioRef = useRef(null);
   let classNamess = "player__btn-play _btn";
 
-  const OnClickPlayPause = () => {
+  const onClickPlayPause = () => {
     PlayAudio = !PlayAudio;
     if (PlayAudio === true) {
       audioRef.current.play();
@@ -23,7 +23,7 @@ export const Controls = () => {
         </svg>
       </div>
 
-      <div className={classNamess} onClick={OnClickPlayPause}>
+      <div className={classNamess} onClick={onClickPlayPause}>
         <svg class="player__btn-play-svg" alt="play">
           <use xlinkHref="img/icon/sprite.svg#icon-play"></use>
         </svg>
