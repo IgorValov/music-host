@@ -6,9 +6,11 @@ import { useThemeContext } from "../../../toggleTheme/context/theme";
 
 const Main = () => {
   const { theme } = useThemeContext();
-  const styleTheme = { backgroundColor: theme.background, color: theme.color };
   return (
-    <main className="main" style={styleTheme}>
+    <main
+      className="main"
+      style={{ backgroundColor: theme.background, color: theme.color }}
+    >
       <Nav />
       <CenterBlock />
       <SideBar />

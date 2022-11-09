@@ -5,9 +5,11 @@ import { NavMenu } from "../../../../pages/nav-menu/nav-menu";
 
 export const Nav = () => {
   const { theme } = useThemeContext();
-  const styleTheme = { backgroundColor: theme.background, color: theme.color };
   return (
-    <nav className="main__nav nav" style={styleTheme}>
+    <nav
+      className="main__nav nav"
+      style={{ backgroundColor: theme.background, color: theme.color }}
+    >
       <NavLogo />
       <NavMenu />
       <ThemeSwitcher />

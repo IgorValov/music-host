@@ -9,7 +9,6 @@ import Bar from "./bar/bar";
 export const Wraper = () => {
   debugger;
   const { theme } = useThemeContext();
-  const styleTheme = { backgroundColor: theme.background, color: theme.color };
 
   const [currentTheme, setCurrentTheme] = useState(themes.dark);
 
@@ -29,7 +28,10 @@ export const Wraper = () => {
   return (
     <ThemeContext.Provider value={memoUseFunc}>
       <div className="wrapper">
-        <div className="container" style={styleTheme}>
+        <div
+          className="container"
+          style={{ backgroundColor: theme.background, color: theme.color }}
+        >
           <Main />
           <Bar />
         </div>

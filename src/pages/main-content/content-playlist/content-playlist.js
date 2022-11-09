@@ -3,7 +3,6 @@ import { useThemeContext } from "../../../toggleTheme/context/theme";
 
 const PlayList = () => {
   const { theme } = useThemeContext();
-  const styleTheme = { backgroundColor: theme.background, color: theme.color };
 
   return (
     <div className="content__playlist playlist">
@@ -19,14 +18,14 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Guilt <span className="track__title-span text__color"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Nero
             </a>
           </div>
@@ -56,14 +55,14 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Elektro <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Dynoro, Outwork, Mr. Gee
             </a>
           </div>
@@ -93,7 +92,7 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 I’m Fire
                 <span className="track__title-span"></span>
@@ -101,7 +100,7 @@ const PlayList = () => {
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Ali Bakgor
             </a>
           </div>
@@ -131,7 +130,7 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Non Stop
                 <span className="track__title-span">(Remix)</span>
@@ -139,7 +138,7 @@ const PlayList = () => {
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Стоункат, Psychopath
             </a>
           </div>
@@ -169,14 +168,14 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Run Run <span className="track__title-span">(feat. AR/CO)</span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Jaded, Will Clarke, AR/CO
             </a>
           </div>
@@ -206,7 +205,7 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Eyes on Fire
                 <span className="track__title-span">(Zeds Dead Remix)</span>
@@ -214,7 +213,7 @@ const PlayList = () => {
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Blue Foundation, Zeds Dead
             </a>
           </div>
@@ -244,7 +243,7 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Mucho Bien
                 <span className="track__title-span">(Hi Profile Remix)</span>
@@ -252,7 +251,7 @@ const PlayList = () => {
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               HYBIT, Mr. Black, Offer Nissim, Hi Profile
             </a>
           </div>
@@ -282,14 +281,14 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Knives n Cherries <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               minthaze
             </a>
           </div>
@@ -319,7 +318,7 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 How Deep Is Your Love{" "}
                 <span className="track__title-span"></span>
@@ -327,7 +326,7 @@ const PlayList = () => {
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Calvin Harris, Disciples
             </a>
           </div>
@@ -357,14 +356,14 @@ const PlayList = () => {
               <a
                 className="track__title-link"
                 href="http://"
-                style={styleTheme}
+                style={{ backgroundColor: theme.background, color: theme.color }}
               >
                 Morena <span className="track__title-span"></span>
               </a>
             </div>
           </div>
           <div className="track__author">
-            <a className="track__author-link" href="http://" style={styleTheme}>
+            <a className="track__author-link" href="http://" style={{ backgroundColor: theme.background, color: theme.color }}>
               Tom Boxer
             </a>
           </div>
