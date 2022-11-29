@@ -36,7 +36,8 @@ ul li {
 
 @font-face {
   font-family: "StratosSkyeng";
-  src: local("StratosSkyeng"), local("StratosSkyeng"), url("../fonts/StratosSkyeng.woff2") format("woff2"), url("../fonts/StratosSkyeng.woff") format("woff"), url("../fonts/StratosSkyeng.ttf") format("truetype");
+  src: local("StratosSkyeng"), local("StratosSkyeng"), url("../fonts/StratosSkyeng.woff2") format("woff2"),
+    url("../fonts/StratosSkyeng.woff") format("woff"), url("../fonts/StratosSkyeng.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -82,7 +83,7 @@ body {
 
 .text:hover {
   -webkit-text-decoration: underline #d9b6ff;
-          text-decoration: underline #d9b6ff;
+  text-decoration: underline #d9b6ff;
   color: #d9b6ff;
   cursor: pointer;
 }
@@ -105,7 +106,7 @@ body {
 
 .text:active {
   -webkit-text-decoration: underline #ad61ff;
-          text-decoration: underline #ad61ff;
+  text-decoration: underline #ad61ff;
   color: #ad61ff;
   cursor: pointer;
 }
@@ -389,7 +390,7 @@ body {
   color: #ffffff;
 }
 
-input[type=radio] {
+input[type="radio"] {
   width: 20px;
   height: 20px;
   margin-top: 5px;
@@ -398,7 +399,7 @@ input[type=radio] {
 .custom-radio:checked {
   color: #ad61ff;
   -webkit-text-decoration: underline #ad61ff;
-          text-decoration: underline #ad61ff;
+  text-decoration: underline #ad61ff;
 }
 
 .filter__title {
@@ -644,7 +645,11 @@ input[type=radio] {
   flex-direction: row;
   padding: 0 27px 0 31px;
 }
-.player__btn-prev, .player__btn-play, .player__btn-next, .player__btn-repeat, .player__btn-shuffle {
+.player__btn-prev,
+.player__btn-play,
+.player__btn-next,
+.player__btn-repeat,
+.player__btn-shuffle {
   padding: 5px;
   display: flex;
   align-items: center;
@@ -750,7 +755,8 @@ input[type=radio] {
   align-items: center;
   margin-left: 26%;
 }
-.track-play__like, .track-play__dislike {
+.track-play__like,
+.track-play__dislike {
   padding: 5px;
 }
 .track-play__like-svg {
@@ -790,4 +796,4 @@ input[type=radio] {
 }
 .volume__progress-line {
   width: 109px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

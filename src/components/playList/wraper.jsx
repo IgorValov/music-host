@@ -7,7 +7,6 @@ import Main from "./main/main";
 import Bar from "./bar/bar";
 
 export const Wraper = () => {
-  debugger;
   const { theme } = useThemeContext();
 
   const [currentTheme, setCurrentTheme] = useState(themes.dark);
@@ -16,6 +15,7 @@ export const Wraper = () => {
     const toggleTheme = () => {
       if (currentTheme === themes.light) {
         setCurrentTheme(themes.dark);
+
         return;
       }
 

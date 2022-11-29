@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-
 export const Controls = () => {
   let [PlayAudio] = useState(false);
   const audioRef = useRef(null);

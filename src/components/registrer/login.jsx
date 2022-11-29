@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./reg.css";
+
 export const Login = () => {
   return (
     <div className="register__block">
