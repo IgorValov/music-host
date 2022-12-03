@@ -59,19 +59,19 @@ export class Filter extends Component {
       classNames += " hidden";
     }
     if (activeAuthor) {
-      BtnAurhor += " active";
+      BtnAurhor += " activee";
     }
     if (genre) {
       classNamesGenre += " hidden";
     }
     if (activeGenre) {
-      BtnGenre += " active";
+      BtnGenre += " activee";
     }
     if (year) {
       ClassNameYear += " hidden";
     }
     if (activeYear) {
-      BtnYear += " active";
+      BtnYear += " activee";
     }
 
     return (
